@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./styles.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mountain Slopes Academy</title>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <script src="https://kit.fontawesome.com/713c8eddd1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Header -->
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img class="logo" src="./images/mountainlogo.jpg" alt="logo"> </a><span class="logo-text">MountainSlopes</span>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-circle-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="./index.html">HOME</a></li>
+                    <li><a href="./about.html">ABOUT</a></li>
+                    <li><a href="./curriculum.html">CURRICULUM</a></li>
+                    <li><a href="./blog.html">BLOG</a></li>
+                    <li><a href="./contact.html">CONTACTS</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+
+        <h1>About Us</h1>
+
+    </section>
+
+    <!-- About Us content -->
+
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <img src="./images/founder-image.jpg" alt="">
+            </div>
+            <div class="about-col">
+                <h1>Our Founder</h1>
+                <p>Introducing to you the brilliant mind and heart behind our esteemed institution—an exceptional educationist and founder who is redefining the landscape of learning. With a deep-rooted love for both her American heritage and the captivating tapestry of Kenya, our founder's story is one of purpose, innovation, and dedication to holistic education.</p>
+                <p>As a devoted mother of four, her personal connection to education took on new dimensions, driving her to not only craft an enriching academic environment for her own children but also to extend her vision to the wider community of Nanyuki. Her journey resonates with a genuine desire to create a dynamic space where children can flourish intellectually, emotionally, and socially.</p>
+                <p>Central to our founder's philosophy is the holistic approach to education—a fundamental belief that transcends traditional learning boundaries. This approach recognizes that knowledge isn't confined to textbooks alone. It encompasses a comprehensive nurturing of the mind, heart, and spirit, fostering not just academic excellence but also personal growth and empathy.</p>
+                <p>Her journey is a captivating fusion of her American roots and her love for Kenya's vibrant culture and landscapes. This fusion has led to the creation of an educational ecosystem that is not only academically rigorous but also deeply connected to the local context. This distinctive blend provides students with an opportunity to embrace global perspectives while cherishing their own cultural heritage.</p>
+                <p>With an unwavering commitment to her vision, our founder has meticulously designed an educational space that fosters a synergy between intellectual pursuits and personal development. Her pragmatic approach and innovative outlook have led to a curriculum that equips students not only with knowledge but also with the critical life skills necessary for success in an ever-evolving world.</p>
+                <p>Through her inspiring narrative, we gain insights into the future of education—one that is anchored in passion, driven by innovation, and deeply rooted in a holistic approach that empowers young minds to excel and make meaningful contributions to society.</p>
+                <a href="./contact.html" class="hero-btn colored-btn">EXPLORE NOW</a>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="about-col">
+                <h1>The best environment for your child</h1>
+                <p>Experience the epitome of educational excellence at Mountain Slopes International, where your child's growth is our priority. Immerse your child in an environment that values their uniqueness and cultivates their potential. Our committed educators create a sense of belonging while fostering individual growth, focusing on one-on-one interactions to understand and address each student's needs. Our facilities are meticulously designed to stimulate engagement and active learning. Our collaborative classrooms inspire creativity and exploration. We recognize that education extends beyond academics. Our comprehensive approach nurtures physical, emotional, and cognitive growth, equipping your child for success in every facet of life.</p>
+                <a href="./contact.html" class="hero-btn colored-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="./images/oneononeimage.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+     <!-- Footer -->
+
+     <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <div class="icons">
+            <a href=""><i class="fa fa-brands fa-linkedin"></i></a>
+            <a href=""><i class="fa fa-brands fa-instagram"></i></a>
+            <a href="mailto: mountainslopesinternational@gmail.com"><i class="fa fa-solid fa-envelope"></i></a>
+        </div>
+    <p>Developed with <i class="fa-regular fa-heart"></i> by Zamzam Ali<br> <a href="https://github.com/developer020"><i class="fa-brands fa-github"></i></a></p>
+    </section>
+
+
+
+
+        <!-- JS code for toggling menu -->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+    
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px ";
+            }
+        </script>
+    
+</html>
